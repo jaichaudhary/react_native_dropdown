@@ -1,0 +1,29 @@
+{
+  "name": "react_native_dropdown",
+  "version": "0.1.0",
+  "description": "A react-native dropdown component easy to customize for both iOS and Android.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaichaudhary/react_native_dropdown.git",
+    "baseUrl": "https://github.com/jaichaudhary/react_native_dropdown"
+  },
+  "keywords": [
+    "react-native-dropdown",
+    "dropdown",
+    "react-native-modal-picker",
+    "modal-dropdown"
+  ],
+  "author": {
+    "name": "Jai Chaudhary",
+    "email": "jai.chaudhary.1044@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaichaudhary/react_native_dropdown/issues"
+  },
+  "homepage": "https://github.com/jaichaudhary/react_native_dropdown#readme"
+}

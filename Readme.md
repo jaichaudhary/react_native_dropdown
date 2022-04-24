@@ -13,13 +13,13 @@ A React Native dropdown component easy to customize for both iOS and Android.
 ## Getting started
 
 ```js
-    npm install @jaichaudhary/react_native_dropdown --save
+npm install @jaichaudhary/react_native_dropdown --save
 ```
 
 or
 
 ```js
-    yarn add @jaichaudhary/react_native_dropdown
+yarn add @jaichaudhary/react_native_dropdown
 ```
 
 #### Dropdown types
@@ -34,15 +34,13 @@ and
 import { ModalDrop } from "react_native_dropdown";
 ```
 
-#### Demo
+## Demo
 
-## HandyDrop
+#### HandyDrop
+![HandyDrop](https://user-images.githubusercontent.com/59798109/164994468-4fe5b0a1-09d8-4df8-8b85-00316e3d8c2f.gif)
 
-https://user-images.githubusercontent.com/59798109/164992669-08f057da-9440-42b6-8094-859934997954.mov
-
-## ModalDrop
-
-https://user-images.githubusercontent.com/59798109/164992952-707367d4-e877-47a9-a60a-b89eabb7f77e.mov
+#### ModalDrop
+![ModalDrop](https://user-images.githubusercontent.com/59798109/164994478-fecd21ca-0f79-4907-9907-b55f4c2c6a99.gif)
 
 #### Example
 
@@ -101,7 +99,7 @@ const App = () => {
 };
 ```
 
-#### Dropdown Props
+## Dropdown Props
 
 | Props           | Params            | isRequire | Description                           |
 | --------------- | ----------------- | --------- | ------------------------------------- |

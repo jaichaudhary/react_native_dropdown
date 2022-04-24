@@ -13,13 +13,13 @@ A React Native dropdown component easy to customize for both iOS and Android.
 ## Getting started
 
 ```js
-    npm install react_native_dropdown --save
+    npm install @jaichaudhary/react_native_dropdown --save
 ```
 
 or
 
 ```js
-    yarn add react_native_dropdown
+    yarn add @jaichaudhary/react_native_dropdown
 ```
 
 #### Dropdown types

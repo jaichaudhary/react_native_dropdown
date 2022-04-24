@@ -1,5 +1,5 @@
-import React from 'react';
-import {View, Text, Modal, ScrollView, TouchableOpacity} from 'react-native';
+import React from "react";
+import { View, Text, Modal, ScrollView, TouchableOpacity } from "react-native";
 
 const ModalDrop = ({
   value,
@@ -16,38 +16,42 @@ const ModalDrop = ({
         <View
           style={[
             {
-              backgroundColor: '#000000aa',
+              backgroundColor: "#000000aa",
               flex: 1,
-              justifyContent: 'center',
+              justifyContent: "center",
             },
             parentViewStyle,
-          ]}>
+          ]}
+        >
           <View
             style={[
               {
-                backgroundColor: 'white',
-                padding: 20,
+                backgroundColor: "white",
+                paddingVertical: 20,
                 margin: 40,
                 borderRadius: 8,
                 maxHeight: 300,
               },
               modalViewStyle,
-            ]}>
+            ]}
+          >
             <ScrollView contentContainerStyle={[textParentStyle]}>
               <TouchableOpacity
                 onPress={() => {
-                  returnVal('');
-                }}>
+                  returnVal("");
+                }}
+              >
                 <Text
                   style={[
                     {
                       fontSize: 15,
-                      textAlign: 'center',
+                      textAlign: "center",
                       paddingVertical: 10,
-                      color: 'grey',
+                      color: "grey",
                     },
                     selectTextStyle,
-                  ]}>
+                  ]}
+                >
                   Select an item
                 </Text>
               </TouchableOpacity>
@@ -57,17 +61,19 @@ const ModalDrop = ({
                     key={index}
                     onPress={() => {
                       returnVal(val);
-                    }}>
+                    }}
+                  >
                     <Text
                       style={[
                         {
                           fontSize: 15,
-                          textAlign: 'center',
+                          textAlign: "center",
                           paddingVertical: 10,
                           marginTop: 5,
                         },
                         textStyle,
-                      ]}>
+                      ]}
+                    >
                       {val}
                     </Text>
                   </TouchableOpacity>
